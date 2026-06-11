@@ -14,33 +14,10 @@ The system is tested on diffusion pipelines and demonstrates significant speed i
 📊 Benchmark comparison with baseline pipeline
 🔧 Tunable cache interval and threshold settings
 💻 Compatible with Stable Diffusion pipelines
-📁 Project Structure
-DeepCache-Project/
-│
-├── main.py
-├── requirements.txt
-│
-├── DeepCache/
-│   ├── pipeline.py
-│   ├── cache.py
-│   ├── scheduler.py
-│   ├── utils.py
-│
-├── results/
-│   ├── outputs
-│   └── benchmark_logs
-│
-├── models/
-└── README.md
 🛠 Installation
 git clone https://github.com/your-username/DeepCache-Project.git
 cd DeepCache-Project
 pip install -r requirements.txt
-▶️ How to Run
-
-Run the main script:
-
-python main.py
 
 You can configure caching parameters inside config.py or directly in main.py:
 
